@@ -18,11 +18,11 @@ Improved output:
 
     $ ./view_map.py
 
-![screenshot](https://raw.githubusercontent.com/jabbalaci/.../assets/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/jabbalaci/Flask-url_map-formatter/master/assets/screenshot.png)
 
 About
 -----
 
 * Author:  Laszlo Szathmary, 2015 (<jabba.laci@gmail.com>)
 * Website: <...>
-* GitHub:  <...>
+* GitHub:  <https://github.com/jabbalaci/Flask-url_map-formatter>
