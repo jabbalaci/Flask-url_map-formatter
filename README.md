@@ -20,6 +20,29 @@ Improved output:
 
 ![screenshot](https://raw.githubusercontent.com/jabbalaci/Flask-url_map-formatter/master/assets/screenshot.png)
 
+Usage
+-------
+
+Simply put this script in the same folder where your main application file
+(the one that contains the line `app = Flask(__name__)`) is located.
+
+    .
+    ├── main.py
+    ├── open_in_firefox.py
+    ├── requirements.txt
+    ├── runserver.sh
+    ├── templates
+    │   ├── 404.html
+    │   ├── 500.html
+    │   ├── base.html
+    │   ├── index.html
+    │   └── user.html
+    ├── update_requirements.sh
+    └── view_map.py
+
+Here my main application file is called `main.py`, thus in `view_map.py`
+I import `app` from there: `from main import app`.
+
 About
 -----
 
