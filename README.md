@@ -27,7 +27,7 @@ Simply put this script in the same folder where your main application file
 (the one that contains the line `app = Flask(__name__)`) is located.
 
     .
-    ├── main.py
+    ├── main.py                     <- main app. file
     ├── open_in_firefox.py
     ├── requirements.txt
     ├── runserver.sh
@@ -38,7 +38,7 @@ Simply put this script in the same folder where your main application file
     │   ├── index.html
     │   └── user.html
     ├── update_requirements.sh
-    └── view_map.py
+    └── view_map.py                 <- put it next to the main app. file
 
 Here my main application file is called `main.py`, thus in `view_map.py`
 I import `app` from there: `from main import app`.
